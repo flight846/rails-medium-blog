@@ -24,3 +24,6 @@ group :test do
   gem 'capybara', '~> 2.5.0'
 end
 
+group :production do 
+  gem 'rails_12factor', '~> 0.0.3'
+end
