@@ -2,6 +2,7 @@ require 'rails_helper'
 
 RSpec.describe "Creating post" do
     scenario 'succesfully' do
+        
         visit root_path
         click_on "Write a story"
         
